@@ -1,0 +1,11 @@
+:root {
+    --purple: #723EA3;
+    --dark-grey: #2D3337;
+    --ligth-grey: #C2C1C2;
+    --black: #161A1D;
+    --white: #F5F5F5;
+}
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
