@@ -1,0 +1,153 @@
+:root {
+    --purple: #723EA3;
+    --dark-grey: #2D3337;
+    --ligth-grey: #C2C1C2;
+    --black: #161A1D;
+    --white: #F5F5F5;
+    --segoe: "Segoe UI"
+}
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*-- Styles Généraux --*/
+body{
+    background-color:var(--black);
+}
+
+.logo{
+    width: 8vw;
+    height: 3vh;
+    margin-left: 4vw;
+}
+
+.container-fluid{
+    background-color:var(--black);
+}
+
+
+.nav-link{
+    color: var(--white);
+    margin-left: 6vw;                                                                                                                                                                                                                                                                                                                                           
+}
+
+
+.nav-text{
+    font-size: xx-large;
+    color: var(--white);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+a{
+    text-decoration:none ;
+    color:var(--black);
+}
+/*-- Section Hero --*/
+
+.dl{
+    font-weight: 700;
+    color: var(--white);
+    background-color: var(--purple);
+    padding-left:1vw;
+    padding-right: 1vw;
+    padding-top: 0.5vh;
+    padding-bottom: 0.5vh;
+    border-radius: 40px;
+    font-size: 1vw;
+    text-align: center;
+}
+
+.decouvrez{
+    font-weight: 500;
+    color: var(--white);
+    font-size: 2vw;
+}
+
+.mutek{
+    font-weight: 800;
+    font-size: 2vw;
+    color: var(--white);
+}
+
+.tirez{
+    color: var(--white);
+}
+
+.cell{
+    position: relative;
+    background-color: var(--white);
+    height: 70vh;
+    width: 20vw;
+    border-radius: 40px;
+    align-items: flex-end;
+    
+}
+
+.row{
+    margin:6vw;
+    border-radius: 100px;
+    
+}
+
+.fonct{
+    font-weight: 500;
+    color: var(--white);
+    font-size: 2vw;
+}
+
+.os{
+    color: var(--white);
+    background-color: var(--purple);
+    padding-left:1vw;
+    padding-right: 1vw;
+    padding-top: 0.5vh;
+    padding-bottom: 0.5vh;
+    border-radius: 40px;
+    font-size: 1vw;
+    text-align: center;    
+}
+
+.og{
+    color: var(--white);
+    background-color: var(--purple);
+    padding-left:1vw;
+    padding-right: 1vw;
+    padding-top: 0.5vh;
+    padding-bottom: 0.5vh;
+    border-radius: 40px;
+    font-size: 1vw;
+    text-align: center;
+}
+
+.oe{
+    color: var(--white);
+    background-color: var(--purple);
+    padding-left:1vw;
+    padding-right: 1vw;
+    padding-top: 0.5vh;
+    padding-bottom: 0.5vh;
+    border-radius: 40px;
+    font-size: 1vw;
+    text-align: center;
+}
+
+.prix{
+    font-size: 1.8vw;
+    font-weight: 700;
+}
+
+.tarif{
+    font-weight: 500;
+    color: var(--white);
+    font-size: 2vw;  
+}
+
+.texte_fonct{
+    color: var(--white);
+}
+
+.navbar{
+--bs-navbar-padding-y:0;
+}
