@@ -6,12 +6,132 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/styles-app.css">
 </head>
 <body>
     
+    <nav class="navbar navbar-dark navbar-expand-lg px-2 py-3 fixed-top">
+        <div class="container">
+            <!-- Hamburger button -->
+            <button class="navbar-toggler px-0" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Affichage/masquage de la navigation">
+                <img src="../assets/hamburger.png" alt="hamburger menu icon">
+            </button>
 
+            <!-- Logo -->
+            <img src="../assets/logo.png" alt="Logo Mutek" class="logo">
 
+            <!-- Profile picture -->
+            <div class="pfp"><img src="../assets/cat.jpg" alt="" style="border-radius:50%; width:100%"></div>
+
+            <!-- Navigation -->
+            <div id="mainNav" class="collapse navbar-collapse">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="page-1.html" class="nav-link">Page 1</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="page-2.html" class="nav-link">Page 2</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Barre de recherche -->
+        <input type="search" name="search" id="search" class="form-control my-4" placeholder="Rechercher">
+        <div class="filters overflow-scroll px-4 container">
+            <div class="row flex-row flex-nowrap">
+                <h2 class="filter col active">Toutes</h2>
+                <h2 class="filter col">Installations</h2>
+                <h2 class="filter col">Concert</h2>
+                <h2 class="filter col">Performance</h2>
+            </div>
+            
+        </div>
+
+        <!-- En vedette -->
+        <h1 class="mx-4 mt-4 p-t1">EN VEDETTE</h1>
+        <div class="card vedette mx-4">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="indicator active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2" class="indicator"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3" class="indicator"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="../assets/artworks/house_moire.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-md-block text-start">
+                            <h4>Fractal Fantasy</h4>
+                            <h3>Virtua</h3>
+                            <h5>Hiver 2023</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../assets/artworks/house_moire.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-md-block text-start">
+                            <h4>Fractal Fantasy</h4>
+                            <h3>Virtua</h3>
+                            <h5>Hiver 2023</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../assets/artworks/house_moire.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-md-block text-start">
+                            <h4>Fractal Fantasy</h4>
+                            <h3>Virtua</h3>
+                            <h5>Hiver 2023</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Programmation -->
+        <h1 class="mx-4 mt-4 p-t1">PROGRAMMATION</h1>
+        <div class="card programmation mx-4 mb-3">
+            <img src="../assets/artworks/house_moire.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h4 class="card-text">France Jobin & Markus Heckmann</h4>
+                <h3 class="card-text">Entanglement XR</h3>
+                <h5 class="card-text mb-3">En ligne</h5>
+                <p class="card-text mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac vehicula ex, id rhoncus odio. In hac habitasse plateadictumst. Praesent feugiat augue ac lacus mattis, ut ornare orci aliquam. </p>
+                <a href="#" class="btn"><h3>En savoir plus</h3></a>
+            </div>
+        </div>
+        <div class="card programmation mx-4 mb-3">
+            <img src="../assets/artworks/house_moire.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h4 class="card-text">France Jobin & Markus Heckmann</h4>
+                <h3 class="card-text">Entanglement XR</h3>
+                <h5 class="card-text mb-3">En ligne</h5>
+                <p class="card-text mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac vehicula ex, id
+                    rhoncus odio. In hac habitasse plateadictumst. Praesent feugiat augue ac lacus mattis, ut ornare orci
+                    aliquam. </p>
+                <a href="#" class="btn">
+                    <h3>En savoir plus</h3>
+                </a>
+            </div>
+        </div>
+        <div class="card programmation mx-4 mb-3">
+            <img src="../assets/artworks/house_moire.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h4 class="card-text">France Jobin & Markus Heckmann</h4>
+                <h3 class="card-text">Entanglement XR</h3>
+                <h5 class="card-text mb-3">En ligne</h5>
+                <p class="card-text mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac vehicula ex, id
+                    rhoncus odio. In hac habitasse plateadictumst. Praesent feugiat augue ac lacus mattis, ut ornare orci
+                    aliquam. </p>
+                <a href="#" class="btn">
+                    <h3>En savoir plus</h3>
+                </a>
+            </div>
+        </div>
+    </main>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
