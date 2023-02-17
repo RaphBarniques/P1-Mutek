@@ -59,6 +59,20 @@ a{
     text-align: center;
 }
 
+.dl:hover{
+    font-weight: 700;
+    color: var(--purple
+);
+    background-color: var(--white);
+    padding-left:1vw;
+    padding-right: 1vw;
+    padding-top: 0.5vh;
+    padding-bottom: 0.5vh;
+    border-radius: 40px;
+    font-size: 1vw;
+    text-align: center;
+}
+
 .decouvrez{
     font-weight: 500;
     color: var(--white);
@@ -79,9 +93,10 @@ a{
     position: relative;
     background-color: var(--white);
     height: 70vh;
-    width: 20vw;
+    width: 100%;
     border-radius: 40px;
     align-items: flex-end;
+    aspect-ratio: 5/9;
     
 }
 
@@ -151,3 +166,38 @@ a{
 .navbar{
 --bs-navbar-padding-y:0;
 }
+
+.nav-link:hover{
+    color: var(--white);
+    text-decoration:underline;
+}
+
+
+
+.scrollspy-example{
+    opacity: 0;
+}
+
+
+
+.titre {
+    text-align:center ;
+    margin-top: 5vh;
+}
+
+.texte_fonct{
+    text-align: center;
+}
+
+.boite_fonct{
+padding: 15px;
+}
+
+footer{
+    color:var(--white);
+}
+
+a[href*="https://github.com/RaphBarniques/P1-Mutek"]
+   {text-decoration: none;
+   color: var(--blanc);
+};
