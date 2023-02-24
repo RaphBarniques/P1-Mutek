@@ -80,6 +80,11 @@ h5 {
     flex-wrap: nowrap;
 }
 
+.filters::-webkit-scrollbar {
+    display: none;
+
+}
+
 .filter {
     display: inline;
 }
