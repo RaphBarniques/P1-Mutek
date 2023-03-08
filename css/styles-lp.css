@@ -5,6 +5,7 @@
     --black: #161A1D;
     --white: #F5F5F5;
     --segoe: "Segoe UI"
+    
 }
 
 h1 {
@@ -30,7 +31,7 @@ body{
 
 .nav-link{
     color: var(--white);
-    margin-left: 6vw;                                                                                                                                                                                                                                                                                                                                           
+    margin-left: 3vw;                                                                                                                                                                                                                                                                                                                                           
 }
 
 
@@ -180,6 +181,7 @@ a{
 .titre {
     text-align:center ;
     margin-top: 5vh;
+    color: var(--white);
 }
 
 .texte_fonct{
@@ -212,3 +214,23 @@ a[href*="https://github.com/RaphBarniques/P1-Mutek"]:hover
    {text-decoration: none;
    color: var(--ligth-grey);
 };
+
+.card-img-top{
+    width: 25px;
+}
+
+.bi-chat-square-quote{
+    position: absolute;
+    top: -42px;
+
+}
+
+.btn-primary{
+    position: relative;
+    background-color: var(--purple);
+}
+
+.info{
+    background-color: rgba(255, 255, 255, 0.25); 
+    width: 35vw;
+}
