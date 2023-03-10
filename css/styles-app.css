@@ -2,7 +2,7 @@
     --purple: #723EA3;
     --dark-grey: #161A1D;
     --light-grey: #2D3337;
-    --black: #161A1D;
+    --black: #000000;
     --white: #F5F5F5;
     --segoe: "Segoe UI"
 }
@@ -42,14 +42,15 @@ h5 {
 
 /*-- Style navbar --*/
 .navbar {
-    background: #000;
+    background: var(--black);
 }
 
 .navbar-toggler {
     width: 3rem;
 }
 
-.navbar-toggler:focus, .form-control:focus {
+.navbar-toggler:focus, #search:focus {
+    outline: none;
     border: none;
     box-shadow: none;
 }
@@ -66,14 +67,15 @@ h5 {
 }
 
 /*-- Barre de recherche --*/
-#search {
-    width: 90%;
-    height: 3rem;
-    margin: auto;
-    padding-left: 1.5rem;
+.form-control {
     border-radius: 15px;
     font-size: 1.2rem;
     font-weight: 600;
+}
+
+#search {
+    border: none;
+    outline: none;
 }
 
 .filters {
@@ -82,7 +84,6 @@ h5 {
 
 .filters::-webkit-scrollbar {
     display: none;
-
 }
 
 .filter {
@@ -149,4 +150,9 @@ h5 {
     color: var(--white);
     border-radius: 15px;
     padding: 0.5rem 1.5rem;
+}
+
+/*-- Footer --*/
+footer {
+    background: var(--black);
 }
