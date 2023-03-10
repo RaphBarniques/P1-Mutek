@@ -55,6 +55,10 @@ h5 {
     box-shadow: none;
 }
 
+.nav-item.active {
+    color: var(--white);
+}
+
 .logo {
     height: 1.75rem;
 }
@@ -155,4 +159,8 @@ h5 {
 /*-- Footer --*/
 footer {
     background: var(--black);
+}
+
+.logo-tim {
+    max-width: 200px;
 }
