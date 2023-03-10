@@ -163,6 +163,7 @@ a{
 
 .navbar{
 --bs-navbar-padding-y:0;
+background-color: var(--purple);
 }
 
 .nav-link:hover{
@@ -234,3 +235,5 @@ a[href*="https://github.com/RaphBarniques/P1-Mutek"]:hover
     background-color: rgba(255, 255, 255, 0.25); 
     width: 35vw;
 }
+
+
