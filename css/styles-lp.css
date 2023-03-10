@@ -239,11 +239,4 @@ a[href*="https://github.com/RaphBarniques/P1-Mutek"]:hover
     width: 35vw;
 }
 
-.navbar{
-    background-color: var(--purple);
-}
 
-.accordion-button:not(.collapsed){
-   background-color: var(--purple);
-   color:var(--white);
-}
