@@ -248,3 +248,11 @@ a[href*="https://github.com/RaphBarniques/P1-Mutek"]:hover
     background-color: var(--purple);
     color: var(--white);
 }
+
+.choix-tarif{
+text-align: center;
+}
+
+.prix{
+    text-align: center;
+    }
